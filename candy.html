@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="candy.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+      <a href="#" class="navbar-brand">CANDY</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-links">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+       <div class="collapse navbar-collapse" id="nav-links">
+         <ul class="navbar-nav ">
+            <li class="nav-item">
+                <a href="candy.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link ">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">TICKETS</a>
+            </li>
+         </ul>
+       </div>
+    </nav>
+
+    <section class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-lg-6 text-center text-white d-none d-lg-block mb-5">
+                <h1 class="display-2">DONUT</h1>
+                <p>A doughnut or donut is a type of food made from leavened fried dough. It is popular in many countries and is prepared in various forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty vendors.</p>
+                <a  href="https://en.wikipedia.org/wiki/Doughnut">Visit Donut</a>
+            </div>
+            <div class="col-lg-6">
+                <img  class="img-fluid" src="hand2.png " alt="DONUT">
+            </div>
+        </div>
+    </section>
+    
+    <section class="container-fluid px-0 pt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 order-2 order-md-1">
+                  <img src="milk.png" alt="MIK CANDY" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2" id="sec2">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <h2>MUSEUM OF CANDY</h2>
+                        <img src="lolli_icon.png" alt="">
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptas, perferendis corporis laudantium sequi recusandae mollitia minima dignissimos nostrum veniam optio reiciendis accusamus quam ratione animi facilis quos voluptatum deleniti.</p>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid px-0 pt-5">
+         <div class="row align-items-center">
+           <div class="col-md-6 text-center" id="sec2">
+             <div class="row justify-content-center">
+                <div class="col-10">
+                    <h2 class="pb-5">CANDY MACHINE</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus aliquam, sit omnis autem suscipit est sequi sapiente voluptatibus reprehenderit modi nobis iusto esse eum nemo accusamus doloremque, cumque porro recusandae.
+                    Non laborum tempora numquam perspiciatis suscipit commodi aperiam iste necessitatibus, nemo praesentium eveniet quasi ducimus, eum quos ab recusandae voluptates. Dolores alias consequatur ullam odio quisquam nulla, suscipit animi consectetur.</p>
+                  <a href="https://dir.indiamart.com/impcat/candy-machines.html">Visit_Here</a>
+                </div>
+             </div>
+           </div>
+              <div class="col-md-6">
+                  <img src="gumball.png" alt="MIK CANDY" class="img-fluid">
+              </div>
+         </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+     
+</body>
+</html>

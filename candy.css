@@ -1,0 +1,49 @@
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ea1c2c;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #ea1c2c;
+    transition: 1.5s;
+}
+
+p:hover {
+    color: #e41f67;
+    box-shadow: #e41f67;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+
+.display-2:hover {
+    color: #e41f67;
+    transition: 2s;
+}
+
+#sec2 {
+    color: #e41f67;
+}
+
+.navbar.scrolled {
+    background-color: rgb(244, 155, 244);
+    transition: 1s;
+}
+
+section a:hover {
+    text-decoration: none;
+    color: rgb(14, 104, 11);
+    transform: scale(2);
+}
